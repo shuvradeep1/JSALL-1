@@ -80,7 +80,7 @@ console.log(jsUser.greeting());
 console.log(jsUser.greetingTwo());
 
 
-
+//Easy Some Changes
 
 
 
