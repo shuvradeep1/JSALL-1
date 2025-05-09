@@ -81,6 +81,14 @@ console.log(jsUser.greetingTwo());
 
 
 
+//Easy Changes
+
+
+
+//See Changes
+
+
+
 
 
 
