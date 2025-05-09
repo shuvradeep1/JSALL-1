@@ -45,12 +45,12 @@ const course ={
 
 const {courseName} = course
 const {price} = course
-const {courseInstructor} = course
+const {courseInstructor:instructor} = course
 
 
 console.log(courseName);
 console.log(price);
-console.log(courseInstructor);
+console.log(instructor);
 
 
 
