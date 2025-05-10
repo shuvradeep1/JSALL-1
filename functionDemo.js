@@ -21,3 +21,16 @@ function sayHello() {
 sayHello();
 
 
+//Sum of Two Number
+
+function addTwoNumber(a,b) {
+    if (typeof a==="number" && typeof b==="number") {
+         console.log("Sum of Two number is",(a+b)); 
+    } else {
+        console.log("a and b was not a number.");
+        
+    }
+   
+}
+
+addTwoNumber("5",6);
