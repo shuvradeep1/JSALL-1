@@ -27,14 +27,16 @@ console.log(userDate.userFullName.lastName.secondPrompt?.residual);
 
 const obj1 ={1:"a",2:"b"};
 const obj2 ={3:"a",4:"b"};
-
+//Spread Operator.
 const obj3 = {...obj1, ...obj2}
 console.log(obj3);
 
 console.log(tinderObject);
 console.log(Object.keys(tinderObject));
 console.log(Object.values(tinderObject));
-console.log(Object.entries(tinderObject));
+console.log("Using Entries",Object.entries(tinderObject));
+console.log("Using Entries",Object.entries(tinderObject));
+
 
 // Object DeStructuring..
 const course ={
@@ -47,10 +49,18 @@ const {courseName} = course
 const {price} = course
 const {courseInstructor:instructor} = course
 
+// {
+//     "name":"Javascript",
+//     "coursePrice":5000,
+//     "courseInstructor":"Hitesh" 
+// }
 
-console.log(courseName);
-console.log(price);
-console.log(instructor);
+
+
+
+
+
+
 
 
 
