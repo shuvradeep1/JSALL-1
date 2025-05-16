@@ -1,0 +1,87 @@
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: grey;
+        }
+        .header {
+            background-color: black;
+            padding: 20px;
+        }
+        .header button {
+            background-color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 10px;
+        }
+
+         .header button:hover{
+            background-color: yellow;
+            transition: 0.5s;
+         }
+        .container{
+             margin-top: 50px;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            text-align: left;
+            margin-left: 25px;
+            margin-bottom: 30px;
+        }
+
+    form{
+        
+             margin-left: 50px;
+            font-weight: bold;
+            color: white;
+            text-align: left;
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+    }
+
+    form input{
+        padding: 5px;
+        
+    }
+.label{
+   
+    margin-left: 15px;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    width: 100px;
+    margin-left: 145px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+#guideLine{
+    text-align: left;
+    color: white;
+    margin-top: 10px;
+     margin-left: 100px;
+    
+
+}
+  
