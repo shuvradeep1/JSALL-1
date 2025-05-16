@@ -1,0 +1,59 @@
+ body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: whitesmoke;
+        }
+
+ .header {
+            background-color: grey;
+            padding: 20px;
+        }
+        .header button {
+            background-color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+         .header button:hover{
+            background-color: yellow;
+            transition: 0.5s;
+         }
+         .canvas{
+            margin-top: 120px;
+         }
+.button {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+#grey{
+    background-color: grey;
+    border: 3px solid black;
+}
+
+#white{
+    background-color: white;
+    border: 3px solid black;
+}
+#blue{
+    background-color:  blue;
+    border: 3px solid black;
+}
+#yellow{
+    background-color: yellow;
+    border: 3px solid black;
+}
+#purple{
+     background-color: purple;
+    border: 3px solid black;
+}

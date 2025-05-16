@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: grey; color: white;">
+    <ul class="language">
+        <li>Javascript</li>
+        <!-- <li></li>
+        <li></li>
+        <li></li> -->
+    </ul>
+</body>
+<script>
+//    const elements =  document.createElement('li');
+//    const addText = document.createTextNode('Shuvradeep Datta')
+//    elements.appendChild(addText)
+//     const parent = document.querySelector('.language');
+//     parent.appendChild(elements);
+
+function addElements(langName){
+    const elements =  document.createElement('li');
+    const addText = document.createTextNode(`${langName}`)
+   elements.appendChild(addText)
+    const parent = document.querySelector('.language');
+    parent.appendChild(elements);
+
+
+}
+  
+  addElements('python');
+  addElements('C#');  
+
+//Edit
+  const parents = document.querySelector('li:nth-child(2)');
+    const addText = document.createTextNode("Python");
+    parents.replaceChildren(addText);
+   
+    const parent1 = document.querySelector('li:nth-child(1)');
+    parent1.outerHTML='<li>Jio</li>'
+
+
+
+//remove
+const parents2 = document.querySelector('li:nth-child(1)');
+parents2.remove();
+
+    
+</script>
+</html>
