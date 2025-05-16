@@ -20,7 +20,7 @@ else{
 }
 
 
-const month =13;
+const month =2;
 
 switch (month) {
     case 1:
@@ -64,3 +64,16 @@ switch (month) {
        console.log("Something Went Wrong...");
        
 }
+
+//While Loop
+let i =0;
+while(i<=20){
+    console.log("Hello World !! ");
+    i++;
+};
+
+let j=0;
+do {
+    console.log("Hello World !! "+j);
+    j++;
+} while (j<=20);
