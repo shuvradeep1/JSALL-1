@@ -1,0 +1,85 @@
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        .header {
+            background-color: grey;
+            padding: 20px;
+        }
+        .header button {
+            background-color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+         .header button:hover{
+            background-color: yellow;
+            transition: 0.5s;
+         }
+         .middle-container{
+            height: 30px;
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            color: white;
+            margin-top: 20px;
+            font-size: 24px;
+            border-bottom: 2px dotted white;
+         }
+
+         /* Styling for the project div */
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#insert {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.key {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: black;
+}
+.color{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
