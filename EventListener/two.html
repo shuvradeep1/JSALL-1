@@ -6,6 +6,64 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1 >Shuvradeep Datta</h1>
+    <button id ="start">Start</button>
+    <button id ="stop">Stop</button>
 </body>
+<script>
+// const sayShuvradeep = ()=>{
+//     console.log('Shuvradeep');
+    
+// }
+// const change = ()=>{
+// const h1 = document.querySelector('h1');
+// h1.innerHTML = 'Best Javascript Course';
+// }
+// const changeMe =setTimeout(change,7000);
+
+
+// // const changeMe = setTimeout(sayShuvradeep,7000);
+
+// const stopable = document.getElementById('stop');
+
+// stopable.addEventListener('click',()=>{
+//     console.log('touch me');
+    
+//     clearTimeout(changeMe);
+// });
+
+
+// setInterval(function(){
+//     console.log('Shuvradeep');
+    
+// },2000);
+
+
+const change = ()=>{
+    console.log("shuvradeep");
+    
+}
+
+
+
+const start = document.querySelector('#start');
+const stop = document.querySelector('#stop');
+let interval; //undefined
+
+
+start.addEventListener('click',()=>{
+    if(!interval){
+    interval = setInterval(change,2000);
+    }
+});
+
+
+stop.addEventListener('click',()=>{
+    clearInterval(interval);
+    interval = null;
+});
+
+
+
+</script>
 </html>
