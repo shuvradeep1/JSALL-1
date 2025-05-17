@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="header">
+       <a href="/Project/index.html" ><button>Home</button></a>
+        <a href="https://youtu.be/1sgBl_fYYzI?feature=shared"><button>EKEN BABU SONG</button></a>
+    </div>
+    <div class="middle-container">
+        Number Guessing Game
+    </div>
+    <div class="container">
+        <p>Try and guess a random Number between 1 and 100.</p>
+        <p>You have 10 attempts to guess the right number.</p>
+
+        <div class="inside-conatiner">
+            <h1>Guess a number</h1>
+            <form  id = "startOver">
+                <input type="text" id="guessField" class="guessField"><br><br>
+                <input type="submit"  id="subt" value="Submit guess" class="guessSubmit">
+                <!-- <button>Submit guess</button> -->
+                <p>Previous Guesses:<span class="guesses"></span> </p>
+                <p>Guesses Remaining: <span class="lastResult">10</span></p>
+                <p class="lowOrHigh"></p>
+            </form>
+
+        </div>
+
+    </div>
+</body>
+<script src="numberGuess.js"></script>
+</html>
