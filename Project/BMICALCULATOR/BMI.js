@@ -11,8 +11,8 @@ form.addEventListener('submit',(e)=>{
     const guiding  =  document.querySelector('#guiding')
    
 
-    if(height==='' || height<0 || isNaN(height)) { result.innerHTML = `Please give a valid height ${height}`;}
-    else if(weight==='' || weight<0 || isNaN(weight)){ result.innerHTML = `Please give a valid weight ${weight}`;}
+    if(height==='' || height<0 || isNaN(height)) { result.innerHTML = `Please give a valid height `;}
+    else if(weight==='' || weight<0 || isNaN(weight)){ result.innerHTML = `Please give a valid weight `;}
     else{
         result.innerHTML = ` <span>${weight/Math.pow(height,2)}</span> Kg/m2`;
     }
